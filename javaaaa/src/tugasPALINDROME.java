@@ -31,7 +31,11 @@ public class tugasPALINDROME{
                 System.out.println("NOT PALINDROM");
             }
         } scanner.close();
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> 309333c30d7d5a08eb08af091b6faee07a153d0c
         System.out.println("BUILD SUCCESSFUL");
     } 
 }

@@ -24,16 +24,12 @@ public class tugasPALINDROME{
                     break;
                 }
             }
-
             if (isPalindrome) {
                 System.out.println("PALINDROM");
             } else {
                 System.out.println("NOT PALINDROM");
             }
         } scanner.close();
-
- 
-
-        System.out.println("BUILD SUCCESSFUL");
+     System.out.println("BUILD SUCCESSFUL");
     } 
 }

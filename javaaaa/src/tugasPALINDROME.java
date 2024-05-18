@@ -6,7 +6,7 @@ public class tugasPALINDROME{
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
-            System.out.print("Input string, type 0/q for Quit: ");
+            System.out.print("Input string, type Q/q for Quit: ");
             String input = scanner.nextLine();
 
             if (input.equalsIgnoreCase("q")) {

@@ -2,28 +2,28 @@ import java.util.Scanner;
 
 public class tugasPalindromeChecker {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
+        Scanner cuy = new Scanner(System.in);
         while (true) {
             System.out.print("Input string, type Q/q for Quit : ");
-            String str = in.nextLine();
+            String str = cuy.nextLine();
 
-            // Check for quit condition
+            // Cek untuk kondisi Quit
             if (str.equalsIgnoreCase("Q")) {
                 break;
             }
 
-            // Check if the input string is a palindrome
+            // output jika yg diinput berupa palindrom atau tidak
             if (isPalindrome(str)) {
                 System.out.println("PALINDROM");
             } else {
                 System.out.println("NOT PALINDROM");
             }
         }
-        in.close();
+        cuy.close();
         System.out.println("BUILD SUCCESSFUL");
     }
 
-    // Function to check if a string is a palindrome
+    // fungsi untuk mengecek apakah yg diinput adalah palindrom
     public static boolean isPalindrome(String str) {
         int left = 0;
         int right = str.length() - 1;

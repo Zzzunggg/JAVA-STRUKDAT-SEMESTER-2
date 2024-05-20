@@ -15,7 +15,8 @@ public class tugasPalindromeChecker {
             // output jika yg diinput berupa palindrom atau tidak
             if (isPalindrome(str)) {
                 System.out.println("PALINDROM");
-            } else {
+            } 
+            else {
                 System.out.println("NOT PALINDROM");
             }
         }

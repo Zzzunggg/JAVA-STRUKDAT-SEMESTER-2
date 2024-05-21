@@ -14,7 +14,7 @@ public class InterpolationSearch {
 public static boolean interpolationSearch(int[] array, int target) {
         int low = 0; // Indeks awal array
         int high = array.length - 1; // Indeks akhir array
-        boolean result = interpolationSearch(array, target, low, high);
+      
         
         while (low <= high && target >= array[low] && target <= array[high]) {
             // Hitung posisi yang diestimasi menggunakan rumus interpolasi

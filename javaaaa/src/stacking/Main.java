@@ -21,6 +21,7 @@ public class Main {
         // Menampilkan isi stack setelah operasi pop
         System.out.print("Isi stack setelah operasi pop: ");
         System.out.println(stackA);
+        
     }
 
 }

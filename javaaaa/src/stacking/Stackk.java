@@ -1,3 +1,4 @@
+package stacking;
 class node {
    int data;
    node next; 

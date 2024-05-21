@@ -3,10 +3,10 @@ public class InterpolationSearch {
     public static void main(String[] args) {
         int[] array = {11, 13, 14, 15, 16};
         int target = 15;
-
+    
         // Panggil method interpolationSearch untuk mencari target dalam array
         if (interpolationSearch(array, target)) {
-            System.out.println("Target ditemukan dalam array");
+            System.out.println("Target " + target + " ditemukan dalam array" + result);
         } else {
             System.out.println("Target tidak ditemukan dalam array");
         }
@@ -14,7 +14,8 @@ public class InterpolationSearch {
 public static boolean interpolationSearch(int[] array, int target) {
         int low = 0; // Indeks awal array
         int high = array.length - 1; // Indeks akhir array
-
+        boolean result = interpolationSearch(array, target, low, high);
+        
         while (low <= high && target >= array[low] && target <= array[high]) {
             // Hitung posisi yang diestimasi menggunakan rumus interpolasi
             int pos = low + ((target - array[low]) * (high - low)) / (array[high] - array[low]);

@@ -1,3 +1,4 @@
+package stacking;
 import java.util.Scanner;
 
 public class tugasPalindromeChecker {

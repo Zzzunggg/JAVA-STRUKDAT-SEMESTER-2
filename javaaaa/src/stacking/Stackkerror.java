@@ -8,9 +8,9 @@ class node {
    }
 }
 
-public class Stackk {
+public class Stackkerror {
    private node top;
-   public Stackk() {
+   public Stackkerror() {
       this.top = null;
    }
    public boolean isEmpty() {
@@ -46,4 +46,8 @@ public class Stackk {
          current = current.next;
       }
    }
+public String pop() {
+    // TODO Auto-generated method stub
+    throw new UnsupportedOperationException("Unimplemented method 'pop'");
+}
 }

@@ -1,4 +1,13 @@
-package stacking;
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package Pertemuan2;
+
+/**
+ *
+ * @author HP
+ */
 class Node {
     int data;
     Node next;
@@ -9,10 +18,10 @@ class Node {
     }
 }
 
-public class node {
+public class Stack {
     private Node top;
 
-    public node() {
+    public Stack() {
         this.top = null;
     }
 
@@ -22,8 +31,13 @@ public class node {
 
     public void push(int data) {
         Node newNode = new Node(data);
-        newNode.next = top;
-        top = newNode;
+        if (isEmpty()) {
+            top = newNode;
+        } else {
+            newNode.next = top;
+            top = newNode;
+        }
+        System.out.println(data + " pushed to stack");
     }
 
     public int pop() {
@@ -45,28 +59,15 @@ public class node {
     }
 
     public void display() {
+        Node current = top;
         if (isEmpty()) {
             System.out.println("Stack is empty");
             return;
         }
-        Node current = top;
-        System.out.println("Stack elements are: ");
+        System.out.println("Stack elements are:");
         while (current != null) {
             System.out.println(current.data);
             current = current.next;
         }
-    }
-
-    public static void main(String[] args) {
-        Stackkerror stackk = new Stackkerror();
-        stackk.push(10);
-        stackk.push(20);
-        stackk.push(30);
-
-        stackk.display();
-
-        System.out.println("Top element is " + stackk.peek());
-        System.out.println(stackk.pop() + " popped from stack");
-        stackk.display();
     }
 }

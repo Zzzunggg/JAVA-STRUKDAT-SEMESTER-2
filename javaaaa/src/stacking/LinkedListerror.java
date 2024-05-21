@@ -1,7 +1,7 @@
 package stacking;
 import java.util.Stack;
 
-public class LinkedList {
+public class LinkedListerror {
     public static void main(String[] args) {
         Stack stackk = new Stack();
         stackk.push(1);

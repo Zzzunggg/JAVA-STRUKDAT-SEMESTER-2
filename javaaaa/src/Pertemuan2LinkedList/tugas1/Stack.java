@@ -1,4 +1,4 @@
-package tugasss;
+package Pertemuan2LinkedList.tugas1;
 
 class Node {
     int data;

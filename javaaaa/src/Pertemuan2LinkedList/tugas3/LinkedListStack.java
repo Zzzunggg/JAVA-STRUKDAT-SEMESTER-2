@@ -14,16 +14,9 @@ public class LinkedListStack {
         stack.push(8); // Push pertama dengan nilai 8
         System.out.println(stack.pop() + " popped from stack");
      
-    
         stack.push(8); // Push kedua dengan nilai
-
-        
+      
         System.out.println("Top element is " + stack.peek());
-
-  
-       
-
-
         stack.display();
     }
 }

@@ -8,16 +8,13 @@ public class LinkedListStack {
         stack.push(3);
         stack.push(5);
       
-
         stack.display();
 
         System.out.println("Top element is " + stack.peek());
 
         System.out.println(stack.pop() + " popped from stack");
         System.out.println(stack.pop() + " popped from stack");
-       
-
-
+        
         stack.display();
     }
 }

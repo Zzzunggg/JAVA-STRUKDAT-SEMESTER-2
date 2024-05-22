@@ -15,6 +15,8 @@ public class LinkedListStack {
         System.out.println(stack.pop() + " popped from stack");
         System.out.println(stack.pop() + " popped from stack");
         System.out.println(stack.pop() + " popped from stack");
+
+
         stack.display();
     }
 }

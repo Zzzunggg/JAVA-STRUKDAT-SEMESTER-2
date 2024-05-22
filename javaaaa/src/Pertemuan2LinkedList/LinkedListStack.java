@@ -1,13 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Pertemuan2LinkedList;
 
-/**
- *
- * @author HP
- */
 public class LinkedListStack {
     public static void main(String[] args) {
         Stack stack = new Stack();
@@ -21,7 +13,8 @@ public class LinkedListStack {
         System.out.println("Top element is " + stack.peek());
 
         System.out.println(stack.pop() + " popped from stack");
-
+        System.out.println(stack.pop() + " popped from stack");
+        System.out.println(stack.pop() + " popped from stack");
         stack.display();
     }
 }

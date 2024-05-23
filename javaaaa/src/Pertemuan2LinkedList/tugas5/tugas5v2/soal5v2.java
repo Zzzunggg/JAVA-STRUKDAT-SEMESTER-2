@@ -10,8 +10,6 @@ public class soal5v2 {
             this.npm = npm;
             this.nama = nama;
         }
-
-        @Override
         public String toString() {
             return npm + " " + nama;
         }

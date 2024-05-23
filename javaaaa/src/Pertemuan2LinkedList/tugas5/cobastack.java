@@ -41,7 +41,6 @@ public class cobastack {
     stack.push("3130023036 MUHAMMAD IMAM GHOZALI FEBRIANSYAH");
     stack.push("3130023037 UBAIDULLOH AL ACHRORI");
     stack.push("3130023038 DWIKY ADE PUTRA ZAKARIA");
-    stack.push("3130023038 DWIKY ADE PUTRA ZAKARIA");
     stack.push("3130023039 ELVIRA AMELIA PUTRI");
     stack.push("3130023040 SULTAN MUHAMMAD DZULFALAH ALFARO");
     stack.push("3130023041 MAULA NAHDLIYAH MUCHLIS");
@@ -102,9 +101,5 @@ public class cobastack {
     System.out.println(stack.pop());
     System.out.println(stack.pop());
     System.out.println(stack.pop());
-    System.out.println(stack.pop());
-
-
-
     }
 }

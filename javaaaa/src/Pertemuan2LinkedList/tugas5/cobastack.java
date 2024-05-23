@@ -2,17 +2,109 @@ package Pertemuan2LinkedList.tugas5;
 public class cobastack {
     public static void main(String[] args) {
     ASstack stack = new ASstack();
-    stack.push("kucing");
-    stack.push("harimau");
-    stack.push("burung");
-    stack.push("bebek");
     
+    stack.push("3130023001 ERISTYA RIEKE FIRNANDA");
+    stack.push("3130023002 FITRIAN PRAMUDIA EFENDI");
+    stack.push("3130023003 DIMAS HARDIANSYAH");
+    stack.push("3130023004 DHISI NAFIULIA HAYYU");
+    stack.push("3130023005 SITI KHOTIMAH");
+    stack.push("3130023006 RAMA WAHYU SATRIO");
+    stack.push("3130023007 ACHMAT CHOIRUN NASAB");
+    stack.push("3130023008 FATCHUR ROZI");
+    stack.push("3130023009 MUHAMAD YUSUF");
+    stack.push("3130023010 DIMAS BAGUS AJI SAPUTRA");
+    stack.push("3130023011 ANISA PUTRI AULIA");
+    stack.push("3130023012 MUHAMMAD LUTFI HASAN ROHMATULLOH"); 
+    stack.push("3130023013 MOCHAMMAD BAKHRI ILMI KURNIAWAN");
+    stack.push("3130023014 MULYA NAFA");
+    stack.push("3130023015 DEVI NADYA SABILLA");
+    stack.push("3130023016 NASYRUL FUADY");
+    stack.push("3130023017 AYU PUTRI GIANTI");
+    stack.push("3130023018 AFRAH AMANI");
+    stack.push("3130023019 FARA FADILLAH NAMIRA ADJANI");
+    stack.push("3130023020 LORRIS AGUSTIN HARIYANTO");
+    stack.push("3130023021 M CHAFIFULLAH FATHUR A");
+    stack.push("3130023022 SULTHAN FATARULLAH AKBAR MUKTI");
+    stack.push("3130023023 BRYENCA RIZKI MARSHELLINE");
+    stack.push("3130023024 HABIBUR RAHMAN");
+    stack.push("3130023025 MUHAMMAD DAVID TAUFIKUR RACHMAN");
+    stack.push("3130023026 ANIFA NIKMATUL AZZA");
+    stack.push("3130023027 AMAR SAYRIYO AGUNG");
+    stack.push("3130023028 SOFIAN ALI");
+    stack.push("3130023029 DINA KAMILIA"); 
+    stack.push("3130023030 TRYANDIKA DIAS ANGGONO");
+    stack.push("3130023031 MUHAMMAD ALDITIYA VEBRIANTO");
+    stack.push("3130023032 HALIMATUS SAKDIYAH");
+    stack.push("3130023033 ACHMAD RIZKI MIFTAHUDDIN");
+    stack.push("3130023034 MUHAMMAD FIRDAUS AGUSTIAN");
+    stack.push("3130023035 SUSILO MAULANA ERDIANSYAH");
+    stack.push("3130023036 MUHAMMAD IMAM GHOZALI FEBRIANSYAH");
+    stack.push("3130023037 UBAIDULLOH AL ACHRORI");
+    stack.push("3130023038 DWIKY ADE PUTRA ZAKARIA");
+    stack.push("3130023038 DWIKY ADE PUTRA ZAKARIA");
+    stack.push("3130023039 ELVIRA AMELIA PUTRI");
+    stack.push("3130023040 SULTAN MUHAMMAD DZULFALAH ALFARO");
+    stack.push("3130023041 MAULA NAHDLIYAH MUCHLIS");
+    stack.push("3130023042 M.MU'AFFA ADITYA");
+    stack.push("3130023043 MOCH. AZIZI ALFARIZKI");
+    stack.push("3130023044 MUHAMMAD IZZUL HAQ");
+    stack.push("3130023045 MOHAMMAD QO'IS FATHUR ROHMAN");
+    stack.push("3130023046 MUHAMMAD ZIDAN ILMI AFHAMY");
+    stack.push("3130023047 ARDAN PRAMUDYA ARIFIANTO");
+    stack.push("3130023048 IKA NUR PUSPITA RAHAYU");
 
     
     System.out.println(stack.pop());
     System.out.println(stack.pop());
     System.out.println(stack.pop());
     System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+    System.out.println(stack.pop());
+
+
+
     }
 }
-//uhuy

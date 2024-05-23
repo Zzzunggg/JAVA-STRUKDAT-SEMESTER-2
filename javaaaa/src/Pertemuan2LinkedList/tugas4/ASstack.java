@@ -13,7 +13,7 @@ public class ASstack {
     public void push(String element) {
         size++;
         elements[size] = element;
-    
+        System.out.println(element + " pushed to stack");
     }
     public String pop() {
         return elements[size--];

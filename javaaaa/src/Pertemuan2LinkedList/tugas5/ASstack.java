@@ -1,6 +1,6 @@
 package Pertemuan2LinkedList.tugas5;
 public class ASstack {
-    private static final int MAX_SIZE = 1000;
+    private static final int MAX_SIZE = 100;
     private int size;
 
     private String[] elements;
@@ -13,7 +13,7 @@ public class ASstack {
     public void push(String element) {
         size++;
         elements[size] = element;
-    
+        System.out.println(element + " pushed to stack");
     }
     public String pop() {
         return elements[size--];

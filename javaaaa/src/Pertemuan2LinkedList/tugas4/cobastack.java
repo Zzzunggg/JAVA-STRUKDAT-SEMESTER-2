@@ -7,9 +7,6 @@ public class cobastack {
     stack.push("burung");
     stack.push("bebek");
     
-    System.out.println(stack.pop());
-    System.out.println(stack.pop());
-    System.out.println(stack.pop());
-    System.out.println(stack.pop());
+    stack.display();
     }
 }

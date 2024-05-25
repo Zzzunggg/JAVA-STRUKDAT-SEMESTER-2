@@ -68,7 +68,6 @@ public class soal5 {
         stackMahasiswa.push(new Mahasiswa("3130023047", "ARDAN PRAMUDYA ARIFIANTO"));
         stackMahasiswa.push(new Mahasiswa("3130023048", "IKA NUR PUSPITA RAHAYU"));
 
-        // Menampilkan daftar mahasiswa dari stack
         System.out.println("Daftar Mahasiswa 47 Sistem Informasi Angkatan 2023:");
         while (!stackMahasiswa.isEmpty()) {
             System.out.println(stackMahasiswa.pop());

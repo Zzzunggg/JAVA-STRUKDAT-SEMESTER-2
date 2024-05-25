@@ -3,15 +3,15 @@ import java.util.Stack;
 public class soal5v2 {
 
     static class Mahasiswa {
-        String npm;
+        String nim;
         String nama;
 
-        public Mahasiswa(String npm, String nama) {
-            this.npm = npm;
+        public Mahasiswa(String nim, String nama) {
+            this.nim = nim;
             this.nama = nama;
         }
         public String toString() {
-            return npm + " " + nama;
+            return nim + " " + nama;
         }
     }
 

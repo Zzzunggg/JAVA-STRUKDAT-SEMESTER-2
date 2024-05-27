@@ -1,4 +1,4 @@
-package nyobakk;
+package pertemuan3queuee.nyobakk;
 
 class CircularQueue {
     private static final int MAX_SIZE = 5;

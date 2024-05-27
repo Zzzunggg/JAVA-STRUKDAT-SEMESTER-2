@@ -1,4 +1,4 @@
-package nyobakk;
+package pertemuan3queuee.nyobakk;
 
 public class AQueue {
     public static void main(String[] args) {
@@ -10,5 +10,7 @@ public class AQueue {
         
         System.out.println(queue.dequeue());
         System.out.println(queue.dequeue());
+    
+        queue.display();
     }
 }

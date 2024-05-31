@@ -1,20 +1,20 @@
-package pertemuan3queuee.nyobakk;
+package pertemuan3queuee.tugasqueue;
 
 class CircularQueue {
     private static final int MAX_SIZE = 6;
-    private String[] elements;
+    private int[] elements;
     private int size;
     private int front;
     private int rear;
 
     public CircularQueue() {
-        elements = new String[MAX_SIZE];
+        elements = new int[MAX_SIZE];
         size = 0;
         front = 0;
         rear = -1;
     }
 
-    public void enqueue(String newElement) {
+    public void enqueue(int newElement) {
         if (isFull()) {
             System.out.println("Cannot enqueue " + newElement + ", Queue is full");
             return;
@@ -25,23 +25,23 @@ class CircularQueue {
         size++;
     }
 
-    public String dequeue() {
+    public int dequeue() {
         if (isEmpty()) {
             System.out.println("Cannot dequeue, Queue is empty");
-            return null;
+            return -1; // Returning -1 to indicate the queue is empty
         }
 
-        String deletedElement = elements[front];
+        int deletedElement = elements[front];
         front = (front + 1) % MAX_SIZE;
         size--;
 
         return deletedElement;
     }
 
-    public String peek() {
+    public int peek() {
         if (isEmpty()) {
             System.out.println("Cannot peek, Queue is empty");
-            return null;
+            return -1; // Returning -1 to indicate the queue is empty
         }
 
         return elements[front];

@@ -12,7 +12,6 @@ public class AQueue {
         queue.display();
        
         System.out.println(queue.peek());
-        System.out.println(queue.dequeue());
         
         queue.display();
     }

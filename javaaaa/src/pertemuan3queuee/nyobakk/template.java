@@ -32,6 +32,7 @@ class CircularQueue {
         }
 
         String deletedElement = elements[front];
+        elements[front] = null;  // Clear the slot
         front = (front + 1) % MAX_SIZE;
         size--;
 
@@ -61,14 +62,12 @@ class CircularQueue {
             return;
         }
 
-        System.out.println("Queue (front to rear): ");
+        System.out.print("Queue (front to rear): ");
         int index = front;
-
         for (int i = 0; i < size; i++) {
             System.out.print(elements[index] + " ");
             index = (index + 1) % MAX_SIZE;
         }
-
         System.out.println();
     }
 }

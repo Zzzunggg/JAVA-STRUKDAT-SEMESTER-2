@@ -6,11 +6,12 @@ public class adwell {
 
     public static void main(String[] args) {
         Queue<Integer> queue = new LinkedList<>();
-        int maxSize = 5;
+        int maxSize = 6;
 
         enqueue(queue, maxSize, 1);
         enqueue(queue, maxSize, 4);
         enqueue(queue, maxSize, 0);
+        enqueue(queue, maxSize, 4);
         printQueue(queue);
 
         enqueue(queue, maxSize, 9);

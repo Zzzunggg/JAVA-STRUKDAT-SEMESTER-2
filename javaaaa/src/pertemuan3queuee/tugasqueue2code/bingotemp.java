@@ -16,7 +16,7 @@ class CircularQueue {
 
     public void enqueue(int newElement) {
         if (isFull()) {
-            System.out.println("queue penuh, tidak bisa queue angka " + newElement);
+            System.out.println("queue penuh, tidak bisa enqueue angka " + newElement);
             return;
         }
 

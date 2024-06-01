@@ -1,7 +1,5 @@
 package pertemuan3queuee.tugasqueue2code;
 public class Q{
-
-
 public static void main(String[] args) {
     CircularQueue queue = new CircularQueue();
 

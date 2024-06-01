@@ -36,7 +36,7 @@ public class adwell {
     public static void enqueue(Queue<Integer> queue, int maxSize, int number) {
         if (queue.size() < maxSize) {
             queue.add(number);
-            System.out.println("enqueue" + "angka" + number );
+            System.out.println("enqueue " + "angka " + number );
         } else {
             System.out.println("queue full, tidak bisa enqueue angka " + number);
         }
@@ -45,7 +45,7 @@ public class adwell {
     public static void dequeue(Queue<Integer> queue) {
         if (!queue.isEmpty()) {
             int removed = queue.remove();
-            System.out.println("dequeue" + " angka " +  removed );
+            System.out.println("dequeue " + "angka " +  removed );
         } else {
             System.out.println("queue kosong, ga ada yg didequeue");
         }

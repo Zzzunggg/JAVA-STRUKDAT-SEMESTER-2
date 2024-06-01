@@ -2,7 +2,7 @@ package pertemuan3queuee.tugasqueueu1code;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class QueueSimulation {
+public class adwell {
 
     public static void main(String[] args) {
         Queue<Integer> queue = new LinkedList<>();

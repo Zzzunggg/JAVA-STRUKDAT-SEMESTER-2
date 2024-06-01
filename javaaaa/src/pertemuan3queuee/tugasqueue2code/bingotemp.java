@@ -1,4 +1,4 @@
-package pertemuan3queuee.tugasqueue;
+package pertemuan3queuee.tugasqueue2code;
 
 class CircularQueue {
     private static final int MAX_SIZE = 6;
@@ -16,34 +16,36 @@ class CircularQueue {
 
     public void enqueue(int newElement) {
         if (isFull()) {
-            System.out.println("Cannot enqueue " + newElement + ", Queue is full");
+            System.out.println("queue penuh, tidak bisa queue angka " + newElement);
             return;
         }
 
         rear = (rear + 1) % MAX_SIZE;
         elements[rear] = newElement;
         size++;
+        System.out.println("angka " + newElement + " enqueue ke antrian ");
     }
 
     public int dequeue() {
         if (isEmpty()) {
-            System.out.println("Cannot dequeue, Queue is empty");
-            return -1; // Returning -1 to indicate the queue is empty
+            System.out.println("tidak bisa dequeue, queuenya kosong");
+            return -1; // Return -1 to indicate the queue is empty
         }
 
         int deletedElement = elements[front];
         front = (front + 1) % MAX_SIZE;
         size--;
-
+        System.out.println("angka " + deletedElement + " dequeue dari queue");
         return deletedElement;
     }
 
     public int peek() {
         if (isEmpty()) {
-            System.out.println("Cannot peek, Queue is empty");
+            System.out.println("tidak bisa peek, queue kosong");
             return -1; // Returning -1 to indicate the queue is empty
         }
 
+        System.out.println("angka terdepan sekarang = " + elements[front]);
         return elements[front];
     }
 
@@ -56,19 +58,18 @@ class CircularQueue {
     }
 
     public void display() {
+        System.out.println("================================");
         if (isEmpty()) {
-            System.out.println("Queue is empty");
-            return;
+            System.out.println("queue kosong");
+        } else {
+            System.out.print("queue sekarang = ");
+            int index = front;
+            for (int i = 0; i < size; i++) {
+                System.out.print(elements[index] + " ");
+                index = (index + 1) % MAX_SIZE;
+            }
+            System.out.println();
         }
-
-        System.out.println("Queue (front to rear): ");
-        int index = front;
-
-        for (int i = 0; i < size; i++) {
-            System.out.print(elements[index] + " ");
-            index = (index + 1) % MAX_SIZE;
-        }
-
-        System.out.println();
+        System.out.println("================================");
     }
 }

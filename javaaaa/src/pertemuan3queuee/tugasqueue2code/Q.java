@@ -17,7 +17,7 @@ public static void main(String[] args) {
     queue.enqueue(8);
     queue.display();
 
-    queue.enqueue(7); // This should fail
+    queue.enqueue(7); // This should fail cuz it's full
     queue.display();
 
     queue.dequeue();

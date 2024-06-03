@@ -20,7 +20,7 @@ public class adwell {
         enqueue(queue, maxSize, 8);
         printQueue(queue);
 
-        enqueue(queue, maxSize, 7); // This should fail cuz it's full yow
+        enqueue(queue, maxSize, 7); 
         printQueue(queue);
 
         dequeue(queue);

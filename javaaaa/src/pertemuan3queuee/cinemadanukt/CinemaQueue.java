@@ -1,3 +1,4 @@
+package pertemuan3queuee.cinemadanukt;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;

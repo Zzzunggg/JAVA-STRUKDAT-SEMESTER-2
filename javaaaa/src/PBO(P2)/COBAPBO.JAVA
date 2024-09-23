@@ -19,7 +19,10 @@ class PersegiPanjang {
 public class COBAPBO {
     public static void main(String[] args) {
         PersegiPanjang persegiPanjang = new PersegiPanjang(5, 3);
+        int luas = persegiPanjang.hitungLuas();
+        
         System.out.println("Luas persegi panjang: " + persegiPanjang.hitungLuas());
+
     }
 }
 
